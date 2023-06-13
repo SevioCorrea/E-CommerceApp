@@ -11,6 +11,7 @@
 		2290FDF62A38BC9D0092F763 /* player.json in Resources */ = {isa = PBXBuildFile; fileRef = 2290FDF22A38BC9C0092F763 /* player.json */; };
 		2290FDF72A38BC9D0092F763 /* category.json in Resources */ = {isa = PBXBuildFile; fileRef = 2290FDF32A38BC9D0092F763 /* category.json */; };
 		2290FDF82A38BC9D0092F763 /* brand.json in Resources */ = {isa = PBXBuildFile; fileRef = 2290FDF42A38BC9D0092F763 /* brand.json */; };
+		2290FE032A38C5E50092F763 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2290FE022A38C5E50092F763 /* Constants.swift */; };
 		22E24F202A3768BA0085EA90 /* E_CommerceAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E24F1F2A3768BA0085EA90 /* E_CommerceAppApp.swift */; };
 		22E24F222A3768BA0085EA90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E24F212A3768BA0085EA90 /* ContentView.swift */; };
 		22E24F242A3768BC0085EA90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22E24F232A3768BC0085EA90 /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 		2290FDF32A38BC9D0092F763 /* category.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = category.json; sourceTree = "<group>"; };
 		2290FDF42A38BC9D0092F763 /* brand.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = brand.json; sourceTree = "<group>"; };
 		2290FDFA2A38BD3B0092F763 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2290FE022A38C5E50092F763 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		22E24F1C2A3768BA0085EA90 /* E-CommerceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "E-CommerceApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22E24F1F2A3768BA0085EA90 /* E_CommerceAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = E_CommerceAppApp.swift; sourceTree = "<group>"; };
 		22E24F212A3768BA0085EA90 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 		2290FE012A38C4460092F763 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				2290FE022A38C5E50092F763 /* Constants.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 			files = (
 				22E24F222A3768BA0085EA90 /* ContentView.swift in Sources */,
 				22E24F202A3768BA0085EA90 /* E_CommerceAppApp.swift in Sources */,
+				2290FE032A38C5E50092F763 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
