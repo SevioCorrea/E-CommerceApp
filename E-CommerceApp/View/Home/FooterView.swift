@@ -7,11 +7,10 @@
 
 import SwiftUI
 
-// MARK: - Properties
-
-// MARK: - Body
-
 struct FooterView: View {
+    // MARK: - Properties
+
+    // MARK: - Body
     var body: some View {
         VStack(alignment: .center, spacing: 10) {
             Text("We offer the most cutting edge, comfortable, lightweight and durable football helmets in the market at affordable prices.")
