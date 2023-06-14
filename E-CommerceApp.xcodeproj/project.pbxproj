@@ -12,6 +12,9 @@
 		2271E3652A3A0448003C55B6 /* FeaturedItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2271E3642A3A0448003C55B6 /* FeaturedItemView.swift */; };
 		2271E3672A3A05A1003C55B6 /* FeaturedTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2271E3662A3A05A1003C55B6 /* FeaturedTabView.swift */; };
 		2271E3692A3A0EE4003C55B6 /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2271E3682A3A0EE4003C55B6 /* CategoryModel.swift */; };
+		2271E36B2A3A11CD003C55B6 /* CategoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2271E36A2A3A11CD003C55B6 /* CategoryItemView.swift */; };
+		2271E36D2A3A18D9003C55B6 /* CategoryGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2271E36C2A3A18D8003C55B6 /* CategoryGridView.swift */; };
+		2271E36F2A3A1B9B003C55B6 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2271E36E2A3A1B9B003C55B6 /* SectionView.swift */; };
 		2290FDF52A38BC9D0092F763 /* product.json in Resources */ = {isa = PBXBuildFile; fileRef = 2290FDF12A38BC9C0092F763 /* product.json */; };
 		2290FDF62A38BC9D0092F763 /* player.json in Resources */ = {isa = PBXBuildFile; fileRef = 2290FDF22A38BC9C0092F763 /* player.json */; };
 		2290FDF72A38BC9D0092F763 /* category.json in Resources */ = {isa = PBXBuildFile; fileRef = 2290FDF32A38BC9D0092F763 /* category.json */; };
@@ -32,6 +35,9 @@
 		2271E3642A3A0448003C55B6 /* FeaturedItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedItemView.swift; sourceTree = "<group>"; };
 		2271E3662A3A05A1003C55B6 /* FeaturedTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedTabView.swift; sourceTree = "<group>"; };
 		2271E3682A3A0EE4003C55B6 /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		2271E36A2A3A11CD003C55B6 /* CategoryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItemView.swift; sourceTree = "<group>"; };
+		2271E36C2A3A18D8003C55B6 /* CategoryGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryGridView.swift; sourceTree = "<group>"; };
+		2271E36E2A3A1B9B003C55B6 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
 		2290FDF12A38BC9C0092F763 /* product.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = product.json; sourceTree = "<group>"; };
 		2290FDF22A38BC9C0092F763 /* player.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = player.json; sourceTree = "<group>"; };
 		2290FDF32A38BC9D0092F763 /* category.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = category.json; sourceTree = "<group>"; };
@@ -96,6 +102,9 @@
 				2290FE122A38EC920092F763 /* NavigationBarView.swift */,
 				2271E3642A3A0448003C55B6 /* FeaturedItemView.swift */,
 				2271E3662A3A05A1003C55B6 /* FeaturedTabView.swift */,
+				2271E36A2A3A11CD003C55B6 /* CategoryItemView.swift */,
+				2271E36C2A3A18D8003C55B6 /* CategoryGridView.swift */,
+				2271E36E2A3A1B9B003C55B6 /* SectionView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -253,8 +262,11 @@
 				2271E3652A3A0448003C55B6 /* FeaturedItemView.swift in Sources */,
 				22E24F202A3768BA0085EA90 /* E_CommerceAppApp.swift in Sources */,
 				2290FE032A38C5E50092F763 /* Constants.swift in Sources */,
+				2271E36D2A3A18D9003C55B6 /* CategoryGridView.swift in Sources */,
 				2271E3692A3A0EE4003C55B6 /* CategoryModel.swift in Sources */,
 				2290FE132A38EC920092F763 /* NavigationBarView.swift in Sources */,
+				2271E36F2A3A1B9B003C55B6 /* SectionView.swift in Sources */,
+				2271E36B2A3A11CD003C55B6 /* CategoryItemView.swift in Sources */,
 				2271E3672A3A05A1003C55B6 /* FeaturedTabView.swift in Sources */,
 				2271E3612A39FC6B003C55B6 /* PlayerModel.swift in Sources */,
 			);
