@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2271E3612A39FC6B003C55B6 /* PlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2271E3602A39FC6B003C55B6 /* PlayerModel.swift */; };
+		2271E3632A39FCE5003C55B6 /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2271E3622A39FCE5003C55B6 /* CodableBundleExtension.swift */; };
+		2271E3652A3A0448003C55B6 /* FeaturedItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2271E3642A3A0448003C55B6 /* FeaturedItemView.swift */; };
+		2271E3672A3A05A1003C55B6 /* FeaturedTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2271E3662A3A05A1003C55B6 /* FeaturedTabView.swift */; };
+		2271E3692A3A0EE4003C55B6 /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2271E3682A3A0EE4003C55B6 /* CategoryModel.swift */; };
 		2290FDF52A38BC9D0092F763 /* product.json in Resources */ = {isa = PBXBuildFile; fileRef = 2290FDF12A38BC9C0092F763 /* product.json */; };
 		2290FDF62A38BC9D0092F763 /* player.json in Resources */ = {isa = PBXBuildFile; fileRef = 2290FDF22A38BC9C0092F763 /* player.json */; };
 		2290FDF72A38BC9D0092F763 /* category.json in Resources */ = {isa = PBXBuildFile; fileRef = 2290FDF32A38BC9D0092F763 /* category.json */; };
@@ -22,6 +27,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2271E3602A39FC6B003C55B6 /* PlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerModel.swift; sourceTree = "<group>"; };
+		2271E3622A39FCE5003C55B6 /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
+		2271E3642A3A0448003C55B6 /* FeaturedItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedItemView.swift; sourceTree = "<group>"; };
+		2271E3662A3A05A1003C55B6 /* FeaturedTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedTabView.swift; sourceTree = "<group>"; };
+		2271E3682A3A0EE4003C55B6 /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
 		2290FDF12A38BC9C0092F763 /* product.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = product.json; sourceTree = "<group>"; };
 		2290FDF22A38BC9C0092F763 /* player.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = player.json; sourceTree = "<group>"; };
 		2290FDF32A38BC9D0092F763 /* category.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = category.json; sourceTree = "<group>"; };
@@ -84,6 +94,8 @@
 				2290FE102A38CB9D0092F763 /* FooterView.swift */,
 				2290FE142A38EEC60092F763 /* LogoView.swift */,
 				2290FE122A38EC920092F763 /* NavigationBarView.swift */,
+				2271E3642A3A0448003C55B6 /* FeaturedItemView.swift */,
+				2271E3662A3A05A1003C55B6 /* FeaturedTabView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -98,6 +110,8 @@
 		2290FDFF2A38C4020092F763 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2271E3602A39FC6B003C55B6 /* PlayerModel.swift */,
+				2271E3682A3A0EE4003C55B6 /* CategoryModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -105,6 +119,7 @@
 		2290FE002A38C4160092F763 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				2271E3622A39FCE5003C55B6 /* CodableBundleExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -231,12 +246,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2271E3632A39FCE5003C55B6 /* CodableBundleExtension.swift in Sources */,
 				22E24F222A3768BA0085EA90 /* ContentView.swift in Sources */,
 				2290FE152A38EEC60092F763 /* LogoView.swift in Sources */,
 				2290FE112A38CB9D0092F763 /* FooterView.swift in Sources */,
+				2271E3652A3A0448003C55B6 /* FeaturedItemView.swift in Sources */,
 				22E24F202A3768BA0085EA90 /* E_CommerceAppApp.swift in Sources */,
 				2290FE032A38C5E50092F763 /* Constants.swift in Sources */,
+				2271E3692A3A0EE4003C55B6 /* CategoryModel.swift in Sources */,
 				2290FE132A38EC920092F763 /* NavigationBarView.swift in Sources */,
+				2271E3672A3A05A1003C55B6 /* FeaturedTabView.swift in Sources */,
+				2271E3612A39FC6B003C55B6 /* PlayerModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
