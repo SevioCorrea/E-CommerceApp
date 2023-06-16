@@ -45,6 +45,9 @@ struct ProductDetailView: View {
                     }) //: Scroll
                     
                     // Quantity + Favourite
+                    QuantityFavouriteDetailView()
+                        .padding(.vertical, 10)
+                    
                     // Add To Cart
                     Spacer()
                 }) //: VStack
