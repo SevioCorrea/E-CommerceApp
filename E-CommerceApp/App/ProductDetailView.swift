@@ -27,15 +27,32 @@ struct ProductDetailView: View {
                 // Detail Top Part
                 TopPartDetailView()
                     .padding(.horizontal)
+                    .zIndex(1)
                 
                 // Detail Bottom Part
-                // Ratings + Sizes
-                // Description
-                // Quantity + Favourite
-                // Add To Cart
-                Spacer()
+                VStack(alignment: .center, spacing: 0, content: {
+                    // Ratings + Sizes
+                    // Description
+                    ScrollView(.vertical, showsIndicators: false, content: {
+                        Text(sampleProduct.description)
+                            .font(.system(.body, design: .rounded))
+                            .foregroundColor(.gray)
+                            .multilineTextAlignment(.leading)
+                    }) //: Scroll
+                    
+                    // Quantity + Favourite
+                    // Add To Cart
+                    Spacer()
+                }) //: VStack
+                .padding(.horizontal)
+                .background(Color.white
+                    .clipShape(CustomShape())
+                    .padding(.top, -105)
+                )
+                
                 
             }) //: VStack
+            .zIndex(0)
             .ignoresSafeArea(.all, edges: .all)
             .background(
                 Color(red: sampleProduct.red, green: sampleProduct.green, blue: sampleProduct.blue)
