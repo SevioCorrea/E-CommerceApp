@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		224CFE0F2A3E6C6300D42DD4 /* AddToCartDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224CFE0E2A3E6C6300D42DD4 /* AddToCartDetailView.swift */; };
 		226C84B32A3A39E80087B631 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226C84B22A3A39E80087B631 /* TitleView.swift */; };
 		226C84B52A3A42290087B631 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226C84B42A3A42290087B631 /* ProductModel.swift */; };
 		226C84B72A3A43950087B631 /* ProductItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226C84B62A3A43950087B631 /* ProductItemView.swift */; };
@@ -43,6 +44,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		224CFE0E2A3E6C6300D42DD4 /* AddToCartDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToCartDetailView.swift; sourceTree = "<group>"; };
 		226C84B22A3A39E80087B631 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
 		226C84B42A3A42290087B631 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
 		226C84B62A3A43950087B631 /* ProductItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItemView.swift; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 				22A2E87B2A3CA45200902424 /* TopPartDetailView.swift */,
 				22A2E87F2A3CB2D900902424 /* RatingsSizesDetailView.swift */,
 				22A2E8812A3CB72400902424 /* QuantityFavouriteDetailView.swift */,
+				224CFE0E2A3E6C6300D42DD4 /* AddToCartDetailView.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 				2290FE112A38CB9D0092F763 /* FooterView.swift in Sources */,
 				2271E3652A3A0448003C55B6 /* FeaturedItemView.swift in Sources */,
 				226C84B72A3A43950087B631 /* ProductItemView.swift in Sources */,
+				224CFE0F2A3E6C6300D42DD4 /* AddToCartDetailView.swift in Sources */,
 				228F58782A3BB5D900B4A5F7 /* BrandGridView.swift in Sources */,
 				22A2E8802A3CB2D900902424 /* RatingsSizesDetailView.swift in Sources */,
 				22E24F202A3768BA0085EA90 /* E_CommerceAppApp.swift in Sources */,
